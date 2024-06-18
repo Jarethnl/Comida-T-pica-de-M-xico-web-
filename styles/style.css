@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  
+}
+video{
+  height="500"
+}
+html {
+    height: 100%;
+}
+
+body {
+    font-family: cursive, sans-serif;
+    font-size: 1.rem;
+    height: 100%;
+  
+}
+.grid-container {
+    box-shadow: 2px 2px 7px 0px Pink;
+    border-radius: 4px;
+    padding: 14px;
+    text-align: center;
+}
+
+.header {
+  height: auto;
+  width: auto;
+    grid-area: header;
+    background-color: plum;
+  color: lightgoldenrodyellow;
+}
+
+.menu_container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width:90%;
+  margin: auto;
+}
+.logo{
+  background-image: url(../Img/farma.png);
+  width:100px;
+  height: 56px;
+}
+.menu_links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  
+}
+.menu_link a: hover{
+  border-bottom: 3px solid red;
+  border-radius: 2px;
+  color: aliceblue;
+}
+
+.sidebar{
+  height:auto;
+  width:475px;
+    grid-area: sidebar;
+    background-color: thistle;
+  float: right;
+}
+
+.main{
+  height: auto;
+  width:475px;
+    grid-area: main;
+    background-color: honeydew;
+  float: left;
+}
+.contenedor{
+  margin: 0;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+}
+i{
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  margin: 20px;
+  border-radius: 50%;
+  padding: 15px;
+  box-shadow: 0px 5px 10px rgb(0, 0, 0, .35);
+   transition: .3s ease;
+} 
+.fa-youtube:hover{
+  background-color: red;
+  color:white;
+  box-shadow: 0 0 15px red,
+              0 0 45px red,
+              0 0 75px red,
+              0 0 105px red;
+}
+.fa-instagram:hover{
+  background-color: orange;
+  color:white;
+  box-shadow: 0 0 15px orange,
+              0 0 45px orange,
+              0 0 75px orange,
+              0 0 105px orange;
+}
+.fa-facebook:hover{
+  background-color: blue;
+  color:white;
+  box-shadow: 0 0 15px blue,
+              0 0 45px blue,
+              0 0 75px blue,
+              0 0 105px blue;
+}
+.share # {
+  margin: 0 5px;
+  text-decoration: none;
+  color:#fff;
+  puddling: 10px;
+  border-radius: 0 5px 5px ;
+  -webkit-border-radius: 0 5px 5px ;
+  -moz-bordee-radius: 0 5px 5px;
+  -ms-bordee-radius: 0 5px 5px;
+  -o-bordee-radius:0 5px 5px
+}
+.share .instagram{
+  background:#018101cb;
+}
+.share .facebook{
+  background:#00a2ff
+}
+.share .twitter{
+  background:#00a2ff
+}
